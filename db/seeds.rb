@@ -5,3 +5,5 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+song = Song.new(title: "Come Alive", artist: "Foo Fighters", album: "Revolver", year: 2001)
+song.save
